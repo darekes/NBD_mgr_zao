@@ -1,0 +1,13 @@
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fmbZV90CspkymBIZ81gZepbx3+DLAgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s13886>; rel="up"
+Last-Modified: Tue, 23 Jun 2020 20:27:56 GMT
+ETag: "7V5S9WY6ubEoszo9P3DRVS"
+Date: Tue, 23 Jun 2020 20:28:57 GMT
+Content-Type: application/json
+Content-Length: 80
+
+{"name": "Kamil", "lastName": "Macicki", birthdayYear: 1985, "hobby": "driving"}

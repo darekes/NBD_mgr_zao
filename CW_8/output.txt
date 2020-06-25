@@ -1,0 +1,8 @@
+CREATION:
+{'name': 'Darek', 'surname': 'Samsel'}
+
+EDITING:
+{'name': 'Darek', 'surname': 'Samselowy2'}
+
+REMOVING:
+None

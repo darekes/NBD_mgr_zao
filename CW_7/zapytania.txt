@@ -1,0 +1,16 @@
+1.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Darek", "lastName": "Samsel", birthdayYear: 1995, "hobby": "programming"}' http://localhost:8098/buckets/s13886/keys/person1
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Julian", "lastName": "Debowski", birthdayYear: 1999, "hobby": "fishing"}' http://localhost:8098/buckets/s13886/keys/person2
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Kazik", "Okulski": "Phantom", birthdayYear: 1956, "hobby": "sailing"}' http://localhost:8098/buckets/s13886/keys/person3
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Kamil", "lastName": "Macicki", birthdayYear: 1985, "hobby": "driving"}' http://localhost:8098/buckets/s13886/keys/person4
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Jan", "lastName": "Nowak", birthdayYear: 1971, "hobby": "eating"}' http://localhost:8098/buckets/s13886/keys/person5
+
+2. curl -i http://localhost:8098/buckets/s13886/keys/person4
+3. curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Darek", "lastName": "Samsel", birthdayYear: 1995, "hobby": "programming", favouriteColor: "Green"}' http://localhost:8098/buckets/s13886/keys/person1
+4. curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Jan", "lastName": "Nowak", birthdayYear: 1971}' http://localhost:8098/buckets/s13886/keys/person5
+5. curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Julian", "lastName": "Debowski", birthdayYear: 1999, "hobby": "fishing"}' http://localhost:8098/buckets/s13886/keys/person2
+6. curl -i -XDELETE -H "Content-Type: application/json" http://localhost:8098/buckets/s13886/keys/person5
+7. curl -i http://localhost:8098/buckets/s13886/keys/person5
+8. curl -i -H "Content-Type: application/json" -d '{"name": "Zofia"}' http://localhost:8098/buckets/s13886/keys
+9. curl -i http://localhost:8098/buckets/s13886/keys/R3j3FGHM6slh9exoegUCVjPtyTY
+10. curl -i -XDELETE -H "Content-Type: application/json" http://localhost:8098/buckets/s13886/keys/R3j3FGHM6slh9exoegUCVjPtyTY
